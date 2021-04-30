@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'Galien';
+  src: url('../fonts/Galien-Regular.eot');
+  src: url('../fonts/Galien-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Galien-Regular.woff') format('woff'),
+      url('../fonts/Galien-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Light.eot');
+  src: url('../fonts/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-Light.woff') format('woff'),
+      url('../fonts/Gilroy-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-ExtraBold.eot');
+  src: url('../fonts/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gilroy-ExtraBold.woff') format('woff'),
+      url('../fonts/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", "Galien", sans-serif;
+  overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+main,
+nav,
+article,
+aside,
+footer,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+.card-color {
+  position: relative;
+  background: rgba(65, 212, 129, 0.225289) !important;
+  border-radius: 6px !important;
+  overflow: hidden;
+}
+
+.card-color .card-bottom {
+  padding: 15px;
+}
+
+.header {
+  transition: all linear 0.5s;
+  transform: scale(1);
+
+}
+
+.dropdown-wrapper {
+  z-index:10;
+}
+.card-wrapper {
+  z-index: 1!important;
+}
+.building {
+  margin-top: 50px;
+}
+.hide {
+  transform: scale(0);
+}
+.card-wrapper.index {
+  z-index: -1!important;
+}
+.card-color .card-bottom {
+  padding-left: 15px!important;
+}
+
+.card-color::before {
+  position: absolute;
+  top: 8px;
+  left: -19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  content: "Top";
+  height: 22px;
+  width: 100px;
+  background: #41D481;
+  transform: rotate(-40deg);
+}
+
+.slider {
+  margin-right: 20px;
+}
+
+.slider-wrapper1 {
+  width: 1300px !important;
+}
+
+.prev1 {
+  left: 3% !important;
+}
+
+.slider-img {
+  border-radius: 6px;
+}
+
+.next1 {
+  right: 3% !important;
+}
+
+.slider-wrapper {
+  margin-bottom: 50px;
+}
+
+.card-bottom {
+  padding-left: 0 !important;
+}
